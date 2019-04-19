@@ -49,6 +49,6 @@ Hello, world! 11939
 
 Most (but not all) of the badges we handed out at the meeting have bitlash installed. You can check this by using a serial terminal (like the one in the Arduino IDE) and connect to the badge at 57600 baud.  If you type the command "help" you should get a response from the badge (make sure your "line ending" is set to "carriage return").
 
-The version of bitlash we put on the badges is highly optimized and some features have been disabled to save space. The 328 processor used on the badge has limited program memory (32K) and we used all but about 8 bytes of that space.
+The version of bitlash (and several other libraries) we put on the badges is highly optimized and some features have been disabled to save space. The 32u4 processor used on the badge has limited program memory (32K) and we used all but about 8 bytes of that space.
 
-Once you write a new program to the badge using the IDE, the existing bitlash interpreter will be overwritten and you wont be able to recover it.  It's not a problem as long as you don't expect to be able to use it again.
+Once you write a new program to the badge using the IDE, the existing bitlash interpreter will be overwritten and you wont be able to recover it.  It's not a problem as long as you don't expect to be able to use the original badge firmware again.
