@@ -17,6 +17,8 @@ There are two different badges that you might have received. One has a display, 
 
 **NOTE:** If you have a badge without a display, running code that attempts to use the display will hang (stop execution) the program. You can load a different program to recover your badge.
 
+**NOTE:** Make sure you select the "Lilypad Arduino **USB**" board in the Arduino IDE. This board selection is based on the ATMega32u4 rather than the ATMega328.  Using a different board definition (including the Lilypad Arduino) will probably brick your badge and require reprogramming with a pogo programmer via the ICSP header.  Also, the badges run at 3.3 volts so don't try to interface them with any 5v components (this is noted in the PDF here in the repo).
+
 ## What's in this repo?
 This repo contains a wealth of information about the Adobe badges. I've focused on the Adobe badges here because
 
